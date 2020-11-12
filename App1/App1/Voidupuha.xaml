@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Voidupuha"
+             Title="Võidupüha">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Voidupuha.jpg"></Image>
+            <Label x:Name="lab1111" Text="Võidupüha on Eesti riigipüha, mida peetakse 23. juunil alates aastast 1934. Sellega tähistatakse Eesti võitu Võnnu lahingus Landeswehri üle 23. juunil 1919.
+Võidupüha on eraisikutele kohustuslikuks lipuheiskamise päevaks. Võidupüha tähistamine on tseremoniaalselt seotud jaanipäeva tähistamisega 24. juunil."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                IsVisible="Hidden"/>
+            <Label x:Name="lab111" Text="Võidupüha on Eesti riigipüha, mida peetakse 23. juunil alates aastast 1934."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

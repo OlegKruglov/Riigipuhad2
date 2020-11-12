@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Ulestousmispuhade"
+             Title="Ülestõusmispühade">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Ulestousmispuhade.jpg"></Image>
+            <Label x:Name="lab100" Text="Ülestõusmispühad (ka lihavõttepühad ehk lihavõtted ja munapühad) on kristluses liikuvad pühad, mis algavad esimese täiskuu pühapäevaga pärast kevadist pööripäeva.
+Pühad mälestavad Jeesus Kristuse surnust ülestõusmist pärast ristilöömist. Ajaliselt langevad need kokku judaismi paasapühadega. Samale ajale jääb ka maausuliste kiigepüha ehk munapüha.
+Paljudes riikides on ülestõusmispühad ka riigipüha, kuid selle pikkus erineb riigiti. Eestis on riigipühaks kuulutatud vaid ülestõusmispühadele eelnev suur reede ja ülestõusmispühade 1. püha."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                IsVisible="false"/>
+            <Label x:Name="lab101" Text="Ülestõusmispühad (ka lihavõttepühad ehk lihavõtted ja munapühad) on kristluses liikuvad pühad, mis algavad esimese täiskuu pühapäevaga pärast kevadist pööripäeva."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

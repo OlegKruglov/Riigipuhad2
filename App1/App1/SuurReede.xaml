@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.SuurReede"
+             Title="SuurReede">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="SuurReede.jpg"></Image>
+            <Label x:Name="lab13" Text="Suur reede on kristlik püha, mil tähistatakse Jeesus Kristuse ristilöömist ja surma Kolgata mäel.
+See kuulub kokku rea teiste pühadega, mis seostuvad Jeesuse eluga. Suur reede eelneb lihavõttepühadele ning võib langeda kokku juudiusu paasapühadega.
+Kanooniliste evangeeliumite järgi löödi Jeesus tõenäoliselt risti reedel (päev enne sabatit; Johannese evangeelium 19:42).
+Tõenäoliselt toimus see kas aastal 33 või 34 (nagu pakkus välja Isaac Newton, võrreldes kuuseise ning piibliaegse ja juuliuse kalendri erinevust)."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   IsVisible="false"/>
+            <Label x:Name="lab14" Text="Suur reede on kristlik püha, mil tähistatakse Jeesus Kristuse ristilöömist ja surma Kolgata mäel."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Jaanipaev"
+             Title="Jaanipäev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Jaanipaev.jpg"></Image>
+            <Label x:Name="lab2" Text="Jaanipäev on Eestis 24. juunil tähistatav püha. 24. juunile eelnevat 23. juuni päeva nimetatakse jaanilaupäevaks ja nendevahelist ööd jaaniööks,
+seda tähistatakse Eestis, Lätis ja põhjamaades jaanituledega.Jaanipäeva nimetus pärineb kirikukalendrist, kirikus tähistatakse sel päeval Ristija Johannese sünnipäeva.
+Eesti Vabariigis on jaanilaupäev ja jaanipäev riigipühad; jaanilaupäeval peetakse Eestis võidupüha, mis tähistab Eesti vägede võitu Vabadussõjas Võnnu lahingus 23. juunil 1919 Landeswehri üle.
+Pärimuslik jaanipidu Vana-Vigala ohvrihiie juures (juuni 2016) Jaaniõhtut ja -ööd tähistatakse Eestis laialdaselt jaanituledega, millel on sümboolne seos pööripäeva ja päikese kõrgseisuga."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                IsVisible="Hidden"/>
+            <Label x:Name="lab1" Text="Jaanipäev on Eestis 24. juunil tähistatav püha. 24. juunile eelnevat 23. juuni päeva nimetatakse jaanilaupäevaks ja nendevahelist ööd jaaniööks,
+seda tähistatakse Eestis, Lätis ja põhjamaades jaanituledega."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"></Label>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

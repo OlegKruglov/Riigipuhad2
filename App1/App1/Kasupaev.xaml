@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Kasupaev"
+             Title="Kasupaev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Kasupaev.jpg"></Image>
+            <Label x:Name="lab5" Text="Kasupäev, 29.09. (kristlikus rahvakalendris mihklipäev) on sügisene pööripüha. Sellest, kuidas kasupäeva peetakse, sõltub inimese käekäik talvel.
+Nagu pööriajal ikka, ennustatakse ette talveilmasid ja inimsaatust ning tehakse tuld. Pidulaud olgu sügisandidega rikkalikult kaetud ja seal peavad tingimata olema värskest lihast valmistatud road."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   IsVisible="false"/>
+            <Label x:Name="lab6" Text="Kasupäev, 29.09. (kristlikus rahvakalendris mihklipäev) on sügisene pööripüha."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

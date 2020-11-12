@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pekopaev"
+             Title="Pekopaev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Pekopaev.jpg"></Image>
+            <Label x:Name="lab9" Text="Sügiskülvi ja viljalõikuse lõppedes tähistatakse Setomaal peko püha. Õigemini, tähistati varem ja võibolla kusagil tähistatakse praegugi.
+Peko on seto põllu-, karja- ja viljakusjumal, kelle puust või vahast kuju hoitakse salaja aidas. Vaid Peko pühadel või külvamise ajaks tuuakse kuju välja."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                IsVisible="false"/>
+                <Label x:Name="lab10" Text="Sügiskülvi ja viljalõikuse lõppedes tähistatakse Setomaal peko püha."/>
+                <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

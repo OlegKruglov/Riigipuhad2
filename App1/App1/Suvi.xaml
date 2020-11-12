@@ -1,0 +1,11 @@
+﻿<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Suvi"
+            xmlns:local="clr-namespace:App1;assembly=App1"
+            Title="Suvi">
+    <TabbedPage.Children>
+        <local:Voidupuha/>
+        <local:Jaanipaev/>
+        <local:Taasiseseisvumispaev/>
+    </TabbedPage.Children>
+</TabbedPage>

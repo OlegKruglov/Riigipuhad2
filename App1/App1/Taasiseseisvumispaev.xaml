@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Taasiseseisvumispaev"
+             Title="Taasiseseisvumispäev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="taasiseseisvumispaev.jpg"></Image>
+            <Label x:Name="lab70" Text="Taasiseseisvumispäev (ka iseseisvuse taastamise päev) on Eesti Vabariigi riigipüha, millega igal aastal 20. augustil tähistatakse Eesti Vabariigi de facto taastamist
+Eesti Vabariigi Ülemnõukogu otsusega Eesti riiklikust iseseisvusest, mis võeti Eesti Komiteega kooskõlastatult vastu Eesti Vabariigi Ülemnõukogu istungil 20. augustil 1991 kell 23:03."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                IsVisible="false"/>
+            <Label x:Name="lab69" Text="Taasiseseisvumispäev (ka iseseisvuse taastamise päev) on Eesti Vabariigi riigipüha, millega igal aastal 20. augustil tähistatakse..."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

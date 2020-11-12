@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Uusaasta"
+             Title="Uusaasta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Uusaasta.jpg"></Image>
+            <Label x:Name="lab778" Text="Uusaasta on püha, mil tähistatakse uue kalendriaasta algust. Lääneriikides, kus kasutatakse Gregoriuse kalendrit, on uusaasta 1. jaanuaril.
+Eestis on 1. jaanuari kui uusaastat nimetatud ka nääripäevaks.Eesti Vabariigis on 1. jaanuaril tähistatav uusaasta riigipüha, sellele eelnev tööpäev on töölepingu seaduse alusel 3 tunni võrra lühendatud."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                   IsVisible="false"/>
+            <Label x:Name="lab777" Text="Uusaasta on püha, mil tähistatakse uue kalendriaasta algust."/>
+            <Button x:Name="btn" Text="Loe rohkem" Clicked="btn_Clicked" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

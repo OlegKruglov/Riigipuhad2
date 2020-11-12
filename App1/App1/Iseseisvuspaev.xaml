@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Iseseisvuspaev"
+             Title="Iseseisvuspäev">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Iseseisvuspaev.jpg" ></Image>
+            <Label x:Name="lab3" Text="Eesti Vabariigi aastapäev on 24. veebruaril, millega tähistatakse Eesti Vabariigi väljakuulutamist 1918. aasta 24. veebruaril.
+Sel päeval avaldati Tallinnas 'Manifest kõigile Eestimaa rahvastele', milles kuulutati välja sõltumatu ja demokraatlik Eesti Vabariik. 24. veebruar on Eesti rahvuspüha ja iseseisvuspäev.
+Eesti taasiseseisvumise järgsel ajal on taastatud Eesti Vabariigi aastapäeva aegsete Eesti kaitseväe paraadide traditsioon, nii nagu see on kombeks paljudes riikides.
+Samuti on tavaks, et Eesti president korraldab iseseisvuspäeval piduliku vastuvõtu, kus annab üle riiklikud teenetemärgid, mille saajate nimekiri on varem ajakirjanduses ilmunud."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                IsVisible="Hidden"/>
+            <Label x:Name="lab4" Text="Eesti Vabariigi aastapäev on 24. veebruaril, millega tähistatakse Eesti Vabariigi väljakuulutamist 1918. aasta 24. veebruaril."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="btn" Clicked="btn_Clicked" Text="Loe rohkem" HeightRequest="40"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
